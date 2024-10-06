@@ -1,0 +1,37 @@
+site_name: mouweng
+theme:
+  name: material
+  logo: https://avatars.githubusercontent.com/u/26166959?v=4&size=64
+  favicon: https://avatars.githubusercontent.com/u/26166959?v=4&size=64
+  palette:
+    # Palette toggle for automatic mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.path
+    - navigation.indexes
+    - navigation.sections
+    - search.highlight
+plugins:
+  - blog
+  - search
+copyright: Copyright &copy; 2024 - Present @ mouweng
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mouweng
+    - icon: fontawesome/solid/paper-plane
+      link: wengyifan1998@gmail.com
