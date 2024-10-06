@@ -1,3 +1,3 @@
 # Tech Blog
 
-> my tech Blog
+> my tech blog repo
